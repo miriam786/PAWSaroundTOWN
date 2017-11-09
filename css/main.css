@@ -1,21 +1,109 @@
 body, html {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
+
 body {
     font-family: arial;
     padding-top: 100px; }
 
+.main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
+
+#banner1 {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+#banner1 h3 {
+  text-align: center;
+}
+
+.main-panel-paw1 {
+  background-image: url("../index_images/jason-wong-306244.jpg");
+  min-height: 100%;
+}
+
+.main-panel-paw2 {
+  background-image: url("../index_images/hannah-wei-84287.jpg");
+  min-height: 400px;
+}
+
+.main-panel-paw3 {
+  background-image: url("../index_images/nick-turner-2570.jpg");
+  min-height: 400px;
+}
+.pawsome-message {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.pawsome-message span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.border {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.cross-page-banner {
+  position:relative;
+}
+
+.cross-page-banner-sub {
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+/* Turn off the scrolling on phones */
+@media only screen and (max-device-width: 1024px) {
+    .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
+        background-attachment: scroll;
+    }
+}
+
 header {
     height: 90px;
     background-image: url(index_images/banner.png);
 }
+
 header h1 {
     display: inline-block;
     padding-left: 120px;
 
 }
+
 .nav{
     border:1px solid #ccc;
     border-width:1px 0;
@@ -26,12 +114,13 @@ header h1 {
     line-height: 2px;
     text-decoration: none;
     color: darkgreen;
-    width: 1250px;
+    width: 1250px;*/
 }
+
 .nav a{
     display:inline-block;
     padding:50px;
-    background: grey;
+    background: white;*/
 
 }
 
@@ -48,6 +137,7 @@ header h1 {
     text-decoration: none;
     float: top-right;
 }
+
 .banner-right a.twitter:hover {
     color: #1da1f2;
 }
@@ -63,8 +153,9 @@ header h1 {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20px 40px 20px;
+    padding: 20px 40px 20px;*/
 }
+
 .main-panel {
     width: 1000px;
     height: 1000px;
@@ -73,7 +164,6 @@ header h1 {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    /*background-color:rgba(97,114,70,.15);*/
     color: 272822;
     padding: 50px;
     border-radius: 6px;
@@ -117,11 +207,11 @@ a:visited {
 a:hover {
     color: darkblue;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
     color: black;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
