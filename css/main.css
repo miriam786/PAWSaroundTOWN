@@ -8,6 +8,8 @@ body, html {
 body {
     font-family: arial;
     padding-top: 100px; }
+  
+}
 
 .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
       position: relative;
