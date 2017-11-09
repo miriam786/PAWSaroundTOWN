@@ -1,74 +1,36 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 15px/1.8 "Lato", arial;
   color: #777;
+  padding-top: 40px;
 }
 
+<<<<<<< HEAD
 body {
     font-family: arial;
     padding-top: 100px; }
   
+=======
+/* USEFUL CODE {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 40px 20px;
+}*/
+
+header {
+        height: 20px;
+        background-image: url(index_images/banner.png);
 }
 
-.main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
-      position: relative;
-      opacity: 0.65;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+header h1 {
+        display: inline-block;
+        padding-left: 120px;
 }
 
-#banner1 {
-  color: #777;
-  background-color:white;
-  text-align:center;
-  padding:50px 80px;
-  text-align: justify;
-}
-
-#banner1 h3 {
-  text-align: center;
-}
-
-.main-panel-paw1 {
-  background-image: url("../index_images/jason-wong-306244.jpg");
-  min-height: 100%;
-}
-
-.main-panel-paw2 {
-  background-image: url("../index_images/hannah-wei-84287.jpg");
-  min-height: 400px;
-}
-
-.main-panel-paw3 {
-  background-image: url("../index_images/nick-turner-2570.jpg");
-  min-height: 400px;
-}
-.pawsome-message {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.pawsome-message span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-.border {
-  background-color:transparent;
-  font-size:25px;
-  color: #f7f7f7;
-}
-
+/*targets the h3 tag to style the message*/
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -76,54 +38,23 @@ h3 {
   color: #111;
 }
 
-.cross-page-banner {
-  position:relative;
-}
-
-.cross-page-banner-sub {
-  color:#ddd;
-  background-color:#282E34;
-  text-align:center;
-  padding:50px 80px;
-  text-align: justify;
-}
-
-/* Turn off the scrolling on phones */
-@media only screen and (max-device-width: 1024px) {
-    .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
-        background-attachment: scroll;
-    }
-}
-
-header {
-    height: 90px;
-    background-image: url(index_images/banner.png);
-}
-
-header h1 {
-    display: inline-block;
-    padding-left: 120px;
-
-}
-
-.nav{
-    border:1px solid #ccc;
-    border-width:1px 0;
+.nav {
+    /*border:1px solid #ccc;removed border lines for consistency to design*/
+    /*border-width:1px 0;removed border lines for consistency to design*/
     list-style:none;
     margin:0;
-    padding: 90 10px;
+    padding: 5px;
     text-align:center;
-    line-height: 2px;
+    /*line-height: 2px;*/
     text-decoration: none;
-    color: darkgreen;
-    width: 1250px;*/
+    color: #111;
+    width: 1250px;
 }
 
-.nav a{
+.nav a {
     display:inline-block;
     padding:50px;
-    background: white;*/
-
+    background: #111;
 }
 
 .banner-right {
@@ -138,6 +69,7 @@ header h1 {
     color: black;
     text-decoration: none;
     float: top-right;
+>>>>>>> 0e7d8928bfdcd6cc77a536b35983d736b07530a7
 }
 
 .banner-right a.twitter:hover {
@@ -150,28 +82,126 @@ header h1 {
     color: #FFFC00;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px 40px 20px;*/
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-.main-panel {
-    width: 1000px;
-    height: 1000px;
-    background-image: url("../index_images/jason-wong-306244.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    color: 272822;
-    padding: 50px;
-    border-radius: 6px;
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-.main-message {
+a:hover {
+    color: #black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*styles the main-panel-pawx views*/
+.main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+/*styles the key-features-banner*/
+#key-features-banner {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+#key-features-banner h3 {
+  text-align: center;
+}
+
+/*specifies the image for each panel*/
+.main-panel-paw1 {
+  background-image: url("../index_images/jason-wong-306244.jpg");
+  min-height: 100%;
+}
+
+.main-panel-paw2 {
+  background-image: url("../index_images/hannah-wei-84287.jpg");
+  min-height: 400px;
+}
+
+.main-panel-paw3 {
+  background-image: url("../index_images/nick-turner-2570.jpg");
+  min-height: 400px;
+}
+
+/*styles the text of the message in each main-panel-pawx*/
+.pawsome-message {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+/*styles for span.border design for the key message in each main-panel-pawx*/
+.pawsome-message span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/*styles for border color and design for the key message in each main-panel-pawx*/
+.border {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+
+/*positions the cross-page-banner to break up the view*/
+.cross-page-banner {
+  position:relative;
+}
+
+/*styles the cross-page-banner-subs which hold the core information*/
+.cross-page-banner-sub {
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+
+/* Turn off the scrolling on phones */
+@media only screen and (max-device-width: 1024px) {
+    .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
+        background-attachment: scroll;
+    }
+}
+
+.footer {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+/* USEFUL CODE {
   text-align: center;
   position: absolute;
   top: 70%;
