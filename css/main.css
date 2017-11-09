@@ -208,42 +208,4 @@ a:active {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
-.content-left, .content-right {
-    width: 48%;
-    display: inline-block;
-}
-.content img, .content iframe {
-    width: 100%;
-}
-.content iframe {
-    height: 600px;
-    width: 1000px;
-}
-.content-right {
-    vertical-align: top;
-}
-
-a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: darkgreen;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkblue;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:active {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
+}*/
