@@ -10,7 +10,7 @@ body, html {
 body {
     font-family: arial;
     padding-top: 100px; }
-  
+
 =======
 /* USEFUL CODE {
     width: 100%;
@@ -36,6 +36,14 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
+}
+
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .nav {
@@ -126,6 +134,28 @@ a:active {
 }
 
 #key-features-banner h3 {
+  text-align: center;
+}
+
+/*sizes the main features icon*/
+#main-features ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 80px;
+}
+
+.fa.fa-paw {
+  font-size: 100px;
+  text-align: left;
+}
+
+.fa.fa-map-marker {
+  font-size: 100px;
+  text-align: center;
+}
+
+.fa.fa-newspaper-o {
+  font-size: 100px;
   text-align: center;
 }
 
