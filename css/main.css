@@ -1,12 +1,12 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", arial;
+  /*font: 400 15px/1.8 "Lato", arial;*/
+  font-family: 'Andada';font-size: 22px;
   color: #777;
   padding-top: 40px;
 }
 
-<<<<<<< HEAD
 body {
     font-family: bookman, helvetica, arial;
     padding-top: 100px; 
@@ -47,51 +47,59 @@ h4 {
     margin-bottom: 20px;
 }
 
-.nav {
+.navbar navbar-default {
     /*border:1px solid #ccc;removed border lines for consistency to design*/
     /*border-width:1px 0;removed border lines for consistency to design*/
     list-style:none;
     margin:0;
     padding: 5px;
     text-align:center;
-    /*line-height: 2px;*/
+    line-height: 2px;
     text-decoration: none;
     color: #111;
-    width: 1250px;
+    width: 100%;
 }
 
-.nav a {
+.navbar navbar-default a {
     display:inline-block;
     padding:50px;
     background: #111;
+    color: gold;
 }
 
-.banner-right {
-    float: right;
-    font-size: 24px;
-    margin-top: 23px;
-    padding-left: 0px;
-
+.banner{
+  width: 100%;
+  height: 20%;
 }
-.banner-right a {
+
+.bannerlinks {
+  padding: 20px 4px 20px 4px;
+  width: 30%;
+  background-color: rgba(63, 191, 191, 0.1);
+  border-radius: 7px;
+  horizontal-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.bannerlinks a {
     padding: 12px 10px 2px 25px;
     color: black;
     text-decoration: none;
-    float: top-right;
->>>>>>> 0e7d8928bfdcd6cc77a536b35983d736b07530a7
 }
 
-.banner-right a.twitter:hover, .sociallinks a.twitter:hover, {
+.bannerlinks a.twitter:hover, .sociallinks a.twitter:hover {
     color: #1da1f2;
 }
-.banner-right a.instagram:hover, .sociallinks a.instagram:hover {
-    color: #003569;
+.bannerlinks a.instagram:hover, .sociallinks a.instagram:hover {
+    color: #9900cc;
 }
-.banner-right a.snapchat:hover,{
+.bannerlinks a.snapchat:hover {
     color: #FFFC00;
 }
-.sociallinks a.facebook:hover {
-  color: ##2865FF;
+.bannerlinks a.facebook:hover {
+  color: #2865FF;
 }
 
 a:link {
@@ -107,7 +115,7 @@ a:visited {
 }
 
 a:hover {
-    color: #black;
+    color: gold;
     background-color: transparent;
     text-decoration: none;
 }
@@ -166,7 +174,7 @@ a:active {
 /*specifies the image for each panel*/
 .main-panel-paw1 {
   background-image: url("../index_images/jason-wong-306244.jpg");
-  min-height: 100%;
+  min-height: 60%;
 }
 
 .main-panel-paw2 {
@@ -256,31 +264,29 @@ text-align: center;
 /* blogs css*/
 
 a.fancybox img {
-        border: none;
-        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
-    a.fancybox:hover img {
+    border: none;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+    -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+} 
+
+a.fancybox:hover img {
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
+}
+
+.container {
+    height: 60%;
+    padding: none;
+}
 
 .blogcontent {
-   width: 900px;
     background-color:none;
     color: brown;
-    padding: 20px 20px 20px 20px;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-left: 120px;
-    border-radius: 6px;
-    text-align: center;
+    padding-left: 100px;
+    padding-right: 80px;
 }
 
-.blogimages {
-  align-items: center;
-}
 
-.drinksmenu, .coffeecup{
+#LDmenu, .coffeecup{
   float: right;
   padding: 15px;
 }
@@ -304,7 +310,21 @@ a.fancybox img {
   background-color: rgba(63, 191, 191, 0.1);
   colour:gold;
   border-radius: 7px;
-  display: inline-block;
-  width: 40%;
+  text-align: center;
 
 }
+
+#stdavid, .sociallinks {
+  display: inline-block;
+  width: 30%;
+
+}
+
+a.fancybox img {
+        border: none;
+        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+    } 
+    a.fancybox:hover img {
+        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+    }

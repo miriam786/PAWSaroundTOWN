@@ -7,58 +7,52 @@
 		<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 		<script src="jquery-3.2.1.min.js"></script>
 		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-		<script src="nav.js"></script>
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	</head>
 		<header>
-				<h1>Paws Around Town</h1>
+		<div class="container"> 
+       		<div class="row">
+           		<div class="col-xs-12">
+					<img src="index_images/banner.png">
+				</div>
+			</div>
 			<!-- This div is for the social media buttons within the header -->
-			<div class="banner-right">
-				<a href="https://twitter.com/pawsaroundtown_" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href="https://snapchat.com/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				<a href="https://instagram.com/" class="snapchat"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+			<div class="bannerlinks">
+				<a href="https://twitter.com/pawsaroundtown_" class="twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+				<a href="https://snapchat.com/" class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				<a href="https://instagram.com/" class="snapchat"><i class="fa fa-snapchat fa-2x" aria-hidden="true"></i></a>
 			</div>
-			</header>
+		</div>			
+	</header>
 
-			<!-- This div specifies the navigation panel -->
-			<div class="nav">
-				<a href="index.html"> Home</a>
-				<a href="About/About.html"> About</a>
-				<a href="Blog/Blog.html"> Blog</a>
-				<a href="Cafe_locator/Cafe_locator.html"> Cafe Locator</a>
-				<a href="Contact/Contact.html"> Contact</a>
-			</div>
-
-			<!-- Brand and toggle get grouped for better mobile display -->
-       <!--<div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-           <span class="sr-only">Toggle navigation</span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
-         <a class="navbar-brand" href="#"></a>
-       </div> -->
-
+<!-- This div specifies the navigation panel -->
 <nav class="navbar navbar-default">
   <div class="container-fluid ">
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-
-          </ul>
-        </li>
-      </ul>
-  </div>
-</div>
-  </nav>
+    	<ul class="nav navbar-nav">
+        	<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        	<li><a href="Cafe_locator/Cafe_locator.html">Contact</a></li>
+        	<li class="dropdown">
+          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          			<ul class="dropdown-menu">
+            	<li><a href="#">Ethos</a></li>
+            	<li><a href="#">FAQs</a></li>
+        		</ul>
+        	</li>
+        	<li class="dropdown">
+      			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
+      			<ul class="dropdown-menu">
+	           		<li><a href="#">Animal Themed Spots</a></li>
+	            	<li><a href="#">Animal Friendly Spots</a></li>
+	            	<li><a href="#">Animal Hosting Spots</a></li>
+        		</ul></li>
+        	<li><a href="Contact/Contact.html">Contact</a></li>
+		</ul>
+  	</div>
+	</div>
+</nav>
 
 		<!-- This is the main panel paw1 containing the iconic
 		image and message the website is conveying when the user lands on the website -->
