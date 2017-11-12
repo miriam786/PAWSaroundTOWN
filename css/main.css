@@ -8,8 +8,9 @@ body, html {
 
 <<<<<<< HEAD
 body {
-    font-family: arial;
-    padding-top: 100px; }
+    font-family: bookman, helvetica, arial;
+    padding-top: 100px; 
+  }
 
 =======
 /* USEFUL CODE {
@@ -80,14 +81,17 @@ h4 {
 >>>>>>> 0e7d8928bfdcd6cc77a536b35983d736b07530a7
 }
 
-.banner-right a.twitter:hover {
+.banner-right a.twitter:hover, .sociallinks a.twitter:hover, {
     color: #1da1f2;
 }
-.banner-right a.instagram:hover {
+.banner-right a.instagram:hover, .sociallinks a.instagram:hover {
     color: #003569;
 }
-.banner-right a.snapchat:hover {
+.banner-right a.snapchat:hover,{
     color: #FFFC00;
+}
+.sociallinks a.facebook:hover {
+  color: ##2865FF;
 }
 
 a:link {
@@ -175,6 +179,7 @@ a:active {
   min-height: 400px;
 }
 
+
 /*styles the text of the message in each main-panel-pawx*/
 .pawsome-message {
   position: absolute;
@@ -239,3 +244,67 @@ a:active {
   transform: translate(-50%, -50%);
   color: white;
 }*/
+
+body, html {
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+/* Styles the thumbnail */
+
+/* blogs css*/
+
+a.fancybox img {
+        border: none;
+        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+    } 
+    a.fancybox:hover img {
+        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+    }
+
+.blogcontent {
+   width: 900px;
+    background-color:none;
+    color: brown;
+    padding: 20px 20px 20px 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 120px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.blogimages {
+  align-items: center;
+}
+
+.drinksmenu, .coffeecup{
+  float: right;
+  padding: 15px;
+}
+
+.barista {
+  float:left;
+  padding: 20px;
+}
+.main-panel-st {
+  background-image: url("../index_images/andrew-welch-59249.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sociallinks{
+  padding: 20px 40px 20px 40px;
+  background-color: rgba(63, 191, 191, 0.1);
+  colour:gold;
+  border-radius: 7px;
+  display: inline-block;
+  width: 40%;
+
+}
