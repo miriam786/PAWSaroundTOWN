@@ -1,25 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Paws Around Town</title>
-		<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
-		<link href='../bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+    <head>
+        <title>Paws Around Town</title>
+        <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link href='../bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Andada' rel='stylesheet'>
-		<script src="../jquery-3.2.1.min.js"></script>
-		<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />   
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />  
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="../jquery-3.2.1.min.js"></script>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+        <header>
+            <div class="banner">
+                <h1>Paws Around Town</h1>
+            </div>
+            <div class="banner-right">
+                <p> The Kennel Log-in </p>
+                <a href="https://twitter.com/PawsAroundTown_" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="" class="snapchat"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+            </div>
+        </header>
+            <!-- This div specifies the navigation panel -->
+<nav class="navbar navbar-default"; style="width: 100%">
+  <div class="container-fluid ">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="Cafe_locator/Cafe_locator.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                <li><a href="#">Ethos</a></li>
+                <li><a href="#">FAQs</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Animal Themed Spots</a></li>
+                    <li><a href="#">Animal Friendly Spots</a></li>
+                    <li><a href="#">Animal Hosting Spots</a></li>
+                </ul></li>
+            <li><a href="Contact/Contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
 
-    </head>
+            <!-- This is the main panel paw1 containing the iconic
+            image and message the website is conveying when the user lands on the website -->
+            <div class="main-panel-st">
+                <div class="pawsome-message">
+                    <span class="border"> Lady Dinah's Cat Emporium, SE23</span>
+                </div>
+            </div>
 
+            <!-- content-->
 <body>
-	<div class="container"> 
+  <div class="blogcontent">
+    <div class="container"> 
         <div class="row">
             <div class="col-xs-12">
-                <h1>Lady Dinah's Cat Emporium</h1>
+                <h3>Lady Dinah's Cat Emporium</h3>
                 <h5>website- <a href="https://ladydinahs.com"></a></h5>
-            	<div class="blogcontent">
-            	   <p>Lady Dinah's Cat Emporium, nestled in a corner of Bethnal Green Road is a cafe at which you are able to enjoy some afternoon tea, and spend some time with their furry residents, a host of cute cats. We went along to see what the hype was about, and we were not disappointed.</p>
+                <div class="blogcontent">
+                   <p>Lady Dinah's Cat Emporium, nestled in a corner of Bethnal Green Road is a cafe at which you are able to enjoy some afternoon tea, and spend some time with their furry residents, a host of cute cats. We went along to see what the hype was about, and we were not disappointed.</p>
                 </div>
             </div>
         </div>
@@ -74,30 +122,61 @@
                     <p><i class="fa fa-train" aria-hidden="true"></i><u>Train:</u> the Nearest overground station is Shoreditch High Street Station. The nearest National Rail station: Liverpool Street Station</p> 
             </div>
         </div>
+    </div>
     </div> <!--end of container-->
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
-    <script type="text/javascript">
-        $(function($){
-            var addToAll = true;
-            var gallery = true;
-            var titlePosition = 'inside';
-            $(addToAll ? 'img' : 'img.fancybox').each(function(){
-                var $this = $(this);
-                var title = $this.attr('title');
-                var src = $this.attr('data-big') || $this.attr('src');
-                var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-                $this.wrap(a);
-            });
-            if (gallery)
-                $('a.fancybox').attr('rel', 'fancyboxgallery');
-            $('a.fancybox').fancybox({
-                titlePosition: titlePosition
-            });
+
+                            <div id="kim-placeholder">
+                            </div>
+                    </div>
+
+
+            <!-- This is the main panel paw1 again containing the iconic image
+            the website is conveying when the user lands on the website. We thought
+            it was good to end with this to take a journey from macro - micro - macro -->
+            <div class="main-panel-paw1">
+                <div class="pawsome-message">
+                    <span class="border">BACK TO HOME</span>
+                </div>
+            </div>
+
+      <!-- This is the footer of the site which holds some additional information -->
+      <footer>
+      <div class="wrapper">
+          <div id="footer-col1">
+            <ul>LINK</ul>
+            <ul>LINK</ul>
+            <ul>DOGGIE CAREERS</ul>
+            </div>
+          <div id="footer-col2">
+              <ul>LINK</ul>
+              <ul>LINK</ul>
+              <ul>DOGGIE CAREERS</ul>
+          </div>
+      </div>
+  </footer>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script type="text/javascript">
+    $(function($){
+        var addToAll = true;
+        var gallery = true;
+        var titlePosition = 'inside';
+        $(addToAll ? 'img' : 'img.fancybox').each(function(){
+            var $this = $(this);
+            var title = $this.attr('title');
+            var src = $this.attr('data-big') || $this.attr('src');
+            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
+            $this.wrap(a);
         });
-        $.noConflict();
-    </script>
-</body>
-</html>
+        if (gallery)
+            $('a.fancybox').attr('rel', 'fancyboxgallery');
+        $('a.fancybox').fancybox({
+            titlePosition: titlePosition
+        });
+    });
+    $.noConflict();
+</script>
+  </body>
+  </html>
