@@ -141,9 +141,9 @@ a:active {
 /*styles the key-features-banner*/
 #key-features-banner {
   color: #777;
-  background-color:white;
+  background-color:#fffaef;
   text-align:center;
-  padding:50px 80px;
+  padding:50px 20px;
   text-align: justify;
 }
 
@@ -171,7 +171,7 @@ a:active {
   font-size: 100px;
   text-align: center;
   display: block;
-  color: black;
+  color: #542c18;
 }
 
 .fa.fa-paw:hover {
@@ -182,7 +182,7 @@ a:active {
   font-size: 100px;
   text-align: center;
   display: block;
-  color: black;
+  color: #542c18;
 }
 
 .fa.fa-map-marker:hover {
@@ -193,7 +193,7 @@ a:active {
   font-size: 100px;
   text-align: center;
   display: block;
-  color: black;
+  color: #542c18;
 }
 
 .fa.fa-newspaper-o:hover {
@@ -245,6 +245,7 @@ a:active {
 /*positions the cross-page-banner to break up the view*/
 .cross-page-banner {
   position:relative;
+  background-color: #fffaef;
 }
 
 /*styles the cross-page-banner-subs which hold the core information*/
