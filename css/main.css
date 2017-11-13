@@ -9,7 +9,7 @@ body, html {
 <<<<<<< HEAD
 body {
     font-family: bookman, helvetica, arial;
-    padding-top: 100px; 
+    padding-top: 100px;
   }
 
 =======
@@ -57,7 +57,7 @@ h4 {
     /*line-height: 2px;*/
     text-decoration: none;
     color: #111;
-    width: 1250px;
+    width: 100%;
 }
 
 .nav a {
@@ -118,10 +118,20 @@ a:active {
     text-decoration: none;
 }
 
+.the-kennel-login {
+  float: bottom;
+  padding-top: 70px;
+}
+
+.the-kennel-login img {
+  width: 100px;
+  height: 100px;
+}
+
 /*styles the main-panel-pawx views*/
 .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
       position: relative;
-      opacity: 0.65;
+      opacity: 0.90;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -144,23 +154,45 @@ a:active {
 /*sizes the main features icon*/
 #main-features ul li {
   list-style-type: none;
-  display: inline;
-  padding: 80px;
+  display: block;
+  padding: 110px;
+}
+
+#main-features h4 {
+  font: 20px "Lato", sans-serif;
 }
 
 .fa.fa-paw {
   font-size: 100px;
-  text-align: left;
+  text-align: center;
+  display: block;
+  color: black;
+}
+
+.fa.fa-paw:hover {
+    color: #9B846C;
 }
 
 .fa.fa-map-marker {
   font-size: 100px;
   text-align: center;
+  display: block;
+  color: black;
+}
+
+.fa.fa-map-marker:hover {
+    color: #9B846C;
 }
 
 .fa.fa-newspaper-o {
   font-size: 100px;
   text-align: center;
+  display: block;
+  color: black;
+}
+
+.fa.fa-newspaper-o:hover {
+    color: #9B846C;
 }
 
 /*specifies the image for each panel*/
@@ -178,7 +210,6 @@ a:active {
   background-image: url("../index_images/nick-turner-2570.jpg");
   min-height: 400px;
 }
-
 
 /*styles the text of the message in each main-panel-pawx*/
 .pawsome-message {
@@ -214,7 +245,7 @@ a:active {
 /*styles the cross-page-banner-subs which hold the core information*/
 .cross-page-banner-sub {
   color:#ddd;
-  background-color:#282E34;
+  background-image:url("../index_images/6 Fine Wood Textures Vol3/olive-palisander.jpg");
   text-align:center;
   padding:50px 80px;
   text-align: justify;
@@ -259,7 +290,7 @@ a.fancybox img {
         border: none;
         box-shadow: 0 1px 7px rgba(0,0,0,0.6);
         -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
+    }
     a.fancybox:hover img {
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
     }
@@ -306,5 +337,4 @@ a.fancybox img {
   border-radius: 7px;
   display: inline-block;
   width: 40%;
-
 }
