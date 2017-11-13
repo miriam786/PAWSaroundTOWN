@@ -147,15 +147,20 @@ a:active {
   text-align: justify;
 }
 
-#key-features-banner h3 {
+#key-features-banner h3, p {
   text-align: center;
 }
 
+#key-features-banner p {
+  text-align: center;
+  font-size: 150%;
+}
+
 /*sizes the main features icon*/
-#main-features ul li {
+#main-features {
   list-style-type: none;
   display: block;
-  padding: 110px;
+  padding: 100px;
 }
 
 #main-features h4 {
@@ -245,10 +250,10 @@ a:active {
 /*styles the cross-page-banner-subs which hold the core information*/
 .cross-page-banner-sub {
   color:#ddd;
-  background-image:url("../index_images/6 Fine Wood Textures Vol3/olive-palisander.jpg");
   text-align:center;
   padding:50px 80px;
   text-align: justify;
+  text-align:center;
 }
 
 

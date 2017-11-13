@@ -8,6 +8,7 @@ function unhover(element) {
 }
 
 //The Kennel Sign-In pop-up box//
+//Source of code: https://www.jqueryscript.net/lightbox/Super-Simple-Modal-Popups-with-jQuery-CSS3-Transitions.html//
 $(function(){
 
 var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
