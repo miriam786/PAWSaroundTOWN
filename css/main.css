@@ -171,33 +171,33 @@ a:active {
   font-size: 100px;
   text-align: center;
   display: block;
-  color: #542c18;
+  color: #9B846C;
 }
 
 .fa.fa-paw:hover {
-    color: #9B846C;
+    color: #542c18;
 }
 
 .fa.fa-map-marker {
   font-size: 100px;
   text-align: center;
   display: block;
-  color: #542c18;
+  color: #9B846C;
 }
 
 .fa.fa-map-marker:hover {
-    color: #9B846C;
+    color: #542c18;
 }
 
 .fa.fa-newspaper-o {
   font-size: 100px;
   text-align: center;
   display: block;
-  color: #542c18;
+  color: #9B846C;
 }
 
 .fa.fa-newspaper-o:hover {
-    color: #9B846C;
+    color: #542c18;
 }
 
 /*specifies the image for each panel*/
