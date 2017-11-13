@@ -9,7 +9,8 @@ body, html {
 
 body {
     font-family: bookman, helvetica, arial;
-    padding-top: 100px; 
+    padding-top: 100px;
+    background-color: rgba(168, 95, 50, 0.52);
   }
 
 =======
@@ -47,6 +48,7 @@ h4 {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .navbar-default {
   background-color: rgba(200, 230, 255, 0.43) !important;
   border-color: #ebfbff;
@@ -100,6 +102,19 @@ background-color: #ebfbff;
 }
 .navbar-default .navbar-link:hover {
   color: #4f45ee !important;
+=======
+.nav {
+    /*border:1px solid #ccc;removed border lines for consistency to design*/
+    /*border-width:1px 0;removed border lines for consistency to design*/
+    list-style:none;
+    margin:0;
+    padding: 5px;
+    text-align:center;
+    /*line-height: 2px;*/
+    text-decoration: none;
+    color: #111;
+    width: 100%;
+>>>>>>> 3f55454e3b98030b562c22032b65126a48d9d584
 }
 
 @media (max-width: 767px) {
@@ -202,10 +217,20 @@ a:active {
     text-decoration: none;
 }
 
+.the-kennel-login {
+  float: bottom;
+  padding-top: 70px;
+}
+
+.the-kennel-login img {
+  width: 100px;
+  height: 100px;
+}
+
 /*styles the main-panel-pawx views*/
 .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
       position: relative;
-      opacity: 0.65;
+      opacity: 0.90;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -215,36 +240,63 @@ a:active {
 /*styles the key-features-banner*/
 #key-features-banner {
   color: #777;
-  background-color:white;
+  background-color:#fffaef;
   text-align:center;
-  padding:50px 80px;
+  padding:50px 20px;
   text-align: justify;
 }
 
-#key-features-banner h3 {
+#key-features-banner h3, p {
   text-align: center;
 }
 
+#key-features-banner p {
+  text-align: center;
+  font-size: 150%;
+}
+
 /*sizes the main features icon*/
-#main-features ul li {
+#main-features {
   list-style-type: none;
-  display: inline;
-  padding: 80px;
+  display: block;
+  padding: 100px;
+}
+
+#main-features h4 {
+  font: 20px "Lato", sans-serif;
 }
 
 .fa.fa-paw {
   font-size: 100px;
-  text-align: left;
+  text-align: center;
+  display: block;
+  color: #9B846C;
+}
+
+.fa.fa-paw:hover {
+    color: #542c18;
 }
 
 .fa.fa-map-marker {
   font-size: 100px;
   text-align: center;
+  display: block;
+  color: #9B846C;
+}
+
+.fa.fa-map-marker:hover {
+    color: #542c18;
 }
 
 .fa.fa-newspaper-o {
   font-size: 100px;
   text-align: center;
+  display: block;
+  color: #9B846C;
+}
+
+.fa.fa-newspaper-o:hover {
+    color: #542c18;
 }
 
 /*specifies the image for each panel*/
@@ -263,7 +315,6 @@ a:active {
   background-image: url("../index_images/nick-turner-2570.jpg");
   min-height: 400px;
 }
-
 
 /*styles the text of the message in each main-panel-pawx*/
 .pawsome-message {
@@ -293,15 +344,16 @@ a:active {
 /*positions the cross-page-banner to break up the view*/
 .cross-page-banner {
   position:relative;
+  background-color: #fffaef;
 }
 
 /*styles the cross-page-banner-subs which hold the core information*/
 .cross-page-banner-sub {
   color:#ddd;
-  background-color:#282E34;
   text-align:center;
   padding:50px 80px;
   text-align: justify;
+  text-align:center;
 }
 
 
@@ -340,12 +392,20 @@ text-align: center;
 /* blogs css*/
 
 a.fancybox img {
+<<<<<<< HEAD
     border: none;
     box-shadow: 0 1px 7px rgba(0,0,0,0.6);
     -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
 } 
 
 a.fancybox:hover img {
+=======
+        border: none;
+        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+    }
+    a.fancybox:hover img {
+>>>>>>> 3f55454e3b98030b562c22032b65126a48d9d584
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
 }
 
@@ -393,8 +453,12 @@ a.fancybox:hover img {
 
 #stdavid, .sociallinks {
   display: inline-block;
+<<<<<<< HEAD
   width: 30%;
 
+=======
+  width: 40%;
+>>>>>>> 3f55454e3b98030b562c22032b65126a48d9d584
 }
 
 a.fancybox img {
