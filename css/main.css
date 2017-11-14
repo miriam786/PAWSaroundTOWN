@@ -5,16 +5,16 @@ body, html {
   font-family: 'Andada';font-size: 22px;
   color: #777;
   padding-top: 50px;
-  max-height: 100%;
+/*  max-width: 100%;*/  
+  max-height: 80%;
+  background-size: cover;
   background-image: url("../index_images/pood.png");
-  background-size:100%;
   background-repeat: no-repeat;
+
 }
 
 body {
     font-family: Andanda, helvetica, arial;
-    padding-top: 100px; 
-    
   }
 
 =======
@@ -182,7 +182,8 @@ background-color: #ebfbff;
 }
 
 .bannerlinks a, .navbar-default{
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 a:link {
@@ -221,7 +222,7 @@ a:active {
 
 /*styles the key-features-banner*/
 #key-features-banner {
-  color: #777;
+  color: #fff;
   background-color:rgba(10, 10, 10, 0.68);
   text-align:center;
   padding:50px 80px;
@@ -263,7 +264,9 @@ a:active {
 /*specifies the image for each panel*/
 .main-panel-paw1 {
   background-image: url("../index_images/jason-wong-306244.jpg");
-  min-height: 70%;
+  min-height: 80%;
+  opacity: 0.85;
+
 }
 
 .main-panel-paw2 {
