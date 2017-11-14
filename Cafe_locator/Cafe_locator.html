@@ -2,35 +2,92 @@
 <html lang="en">
 	<head>
 		<title>Paws Around Town</title>
-<<<<<<< HEAD
-=======
 		<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
->>>>>>> 9b9ffd38544b438102da5330c2c3a5a08acaae95
+		<link href='../bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
-		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-		<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+		<link rel="stylesheet" type="text/css" href="../css/the-kennel-signin-box.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="../js/jquery-3.2.1.min.js"></script>
+		<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="../js/nav.js"></script>
+		<script src="../js/index.js"></script>
 	</head>
-	<body>
 		<header>
-			<div class="banner">
-				<h1>Paws Around Town</h1>
+			<div class="container"> 
+	   			<img src="../index_images/banner.png"; style="max-width: 50%; max-height:50%; margin-top: 20px; margin-left: 120px; float: left;">
+			
+				<div class="bannerlinks">
+				<a href="https://twitter.com/pawsaroundtown_" class="twitter" title="tweet us!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/jiffpom/" class="instagram" title="DM us!"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				<a href="https://en-gb.facebook.com/jiffpom/" class="facebook" title="see what we're up to"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
 			</div>
-			<div class="banner-right">
-				<p> The Kennel Log-in </p>
-				<a href="https://twitter.com/PawsAroundTown_" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href="" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				<a href="" class="snapchat"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
-			</div>
+			</div>			
+		</header>
+		</div>
+				<!-- This div is for the pop-up box when the user clicks on The Kennel -->
+				<div id="popup" class="modal-box">
+					<header>
+						<a href="#" class="js-modal-close close">×</a>
+						<h3><a href=""></a>WELCOME TO THE KENNEL</h3>
+						<img src="index_images/004-dog-kennel-color.png">
+					</header>
+					<div class="modal-body">
+						<form>
+  						<div class="form-group">
+    						<label for="exampleInputEmail1">Username</label>
+    					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  					</div>
+  					<div class="form-group">
+    					<label for="exampleInputPassword1">Password</label>
+    				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  				</div>
+  			<div class="checkbox">
+    			<label>
+      	<input type="checkbox"> Remember Me
+    			</label>
+  			</div>
+  			<button type="submit" class="btn btn-default">Log In</button>
+				<button type="submit" class="btn btn-default">Woof - I forgot my password</button>
+			</form>
+					</div>
+					<footer>
+						<h3>Don't have a login? Sign Up here</h3>
+						<a href="#" class="js-modal-close">Close</a>
+					</footer>
+				</div>
+				</div>
 			</header>
-			<div class="nav">
-				<a href="../index.html"> Home</a>
-				<a href="../About/About.html"> About</a>
-				<a href="../Blog/Blog.html"> Blog</a>
-				<a href="../Cafe_locator/Cafe_locator.html"> Cafe Locator</a>
-				<a href="../Contact/Contact.html"> Contact</a>
-			</div>
-	<script src="jquery-3.2.1.min.js"></script>
 
+			<!-- This div specifies the navigation panel -->
+
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid ">
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    	<ul class="nav navbar-nav">
+			        	<li class="active"><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+			        	<li class="dropdown">
+			          		<a href="../About/About.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+			          			<ul class="dropdown-menu">
+			            	<li><a href="../About/Our_ethos.html">Ethos</a></li>
+			            	<li><a href="../About/FAQs.html">FAQs </a></li>
+			            	<li><a href="../About/The_Kennel.html">The Kennel</a></li>
+			        		</ul>
+			        	</li>
+			        	<li><a href="Cafe_locator.html">Cafe locator</a></li>
+			        	<li class="dropdown">
+			      			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
+			      			<ul class="dropdown-menu">
+				           		<li><a href="#">Animal Themed Spots</a></li>
+				            	<li><a href="#">Animal Friendly Spots</a></li>
+				            	<li><a href="#">Animal Hosting Spots</a></li>
+			        		</ul></li>
+			        	<li><a href="../Contact/Contact.html">Contact</a></li>
+					</ul>
+				<!-- <<<bannerlinkswerehere>>> -->
+			  	</div>
+				</div>
+			</nav>
 
 	<!-- This is the main panel paw1 containing the iconic
 	image and message the website is conveying when the user lands on the website -->
@@ -99,26 +156,27 @@
 	<!-- This is the main panel paw1 again containing the iconic image
 	the website is conveying when the user lands on the website. We thought
 	it was good to end with this to take a journey from macro - micro - macro -->
-	<div class="main-panel-paw1">
-		<div class="pawsome-message">
-			<span class="border">BACK TO HOME</span>
-		</div>
-	</div>
-
-	<!-- This is the footer of the site which holds some additional information -->
-	<footer>
-	<div class="wrapper">
-			<div id="footer-col1">
-				<ul>LINK</ul>
-				<ul>LINK</ul>
-				<ul>DOGGIE CAREERS</ul>
-				</div>
-			<div id="footer-col2">
-					<ul>LINK</ul>
-					<ul>LINK</ul>
-					<ul>DOGGIE CAREERS</ul>
+				<div class="main-panel-paw1">
+				<div class="pawsome-message">
+					<a href="../index.html"> <span class="border">BACK TO HOME</span>
+				</div></a>
 			</div>
-	</div>
-	</footer>
-	</body>
-	</html>
+
+      <!-- This is the footer of the site which holds some additional information -->
+      <footer>
+		<div class="wrapper">
+				<div id="footer-col1">
+					<form>
+					<h3>Subscribe to Newsletter</h3>
+					<input type="email" id="email"placeholder="Email Address"/>
+					<button id="button">Sign Up</button>
+				<label for="email"></label>
+				</form>
+				</div>
+				<div id="footer-col2">
+					<h3>Paws Around Town</h3>
+					</div>
+		</div>
+  </footer>
+  </body>
+  </html>
