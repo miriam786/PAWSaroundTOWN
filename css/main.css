@@ -1,16 +1,19 @@
 body, html {
   height: 100%;
   margin: 0;
-  /*font: 400 15px/1.8 "Lato", arial;*/
   font-family: 'Andada';font-size: 22px;
   color: #777;
-  padding-top: 40px;
+  padding-top: 50px;
+  max-height: 100%;
+  background-image: url("../index_images/pood.png");
+  background-size:100%;
+  background-repeat: no-repeat;
 }
 
 body {
     font-family: bookman, helvetica, arial;
-    padding-top: 100px;
-    background-color: rgba(168, 95, 50, 0.52);
+    padding-top: 100px; 
+    
   }
 
 =======
@@ -36,7 +39,7 @@ header {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 20px "Andada", sans-serif;
   color: #111;
 }
 
@@ -48,7 +51,6 @@ h4 {
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 .navbar-default {
   background-color: rgba(200, 230, 255, 0.43) !important;
   border-color: #ebfbff;
@@ -102,19 +104,6 @@ background-color: #ebfbff;
 }
 .navbar-default .navbar-link:hover {
   color: #4f45ee !important;
-=======
-.nav {
-    /*border:1px solid #ccc;removed border lines for consistency to design*/
-    /*border-width:1px 0;removed border lines for consistency to design*/
-    list-style:none;
-    margin:0;
-    padding: 5px;
-    text-align:center;
-    /*line-height: 2px;*/
-    text-decoration: none;
-    color: #111;
-    width: 100%;
->>>>>>> 3f55454e3b98030b562c22032b65126a48d9d584
 }
 
 @media (max-width: 767px) {
@@ -161,7 +150,7 @@ background-color: #ebfbff;
 
 .bannerlinks {
   padding: 10px 14px 10px 1px;
-  margin-top: 250px;
+  margin-top: 272px;
   background-color: rgba(31, 142, 68, 0.7);
   border-color: rgba(158, 110, 93, 0.39);
   border-radius: 7px;
@@ -217,20 +206,10 @@ a:active {
     text-decoration: none;
 }
 
-.the-kennel-login {
-  float: bottom;
-  padding-top: 70px;
-}
-
-.the-kennel-login img {
-  width: 100px;
-  height: 100px;
-}
-
 /*styles the main-panel-pawx views*/
 .main-panel-paw1, .main-panel-paw2, .main-panel-paw3 {
       position: relative;
-      opacity: 0.90;
+      opacity: 0.65;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -240,63 +219,36 @@ a:active {
 /*styles the key-features-banner*/
 #key-features-banner {
   color: #777;
-  background-color:#fffaef;
+  background-color:white;
   text-align:center;
-  padding:50px 20px;
+  padding:50px 80px;
   text-align: justify;
 }
 
-#key-features-banner h3, p {
+#key-features-banner h3 {
   text-align: center;
-}
-
-#key-features-banner p {
-  text-align: center;
-  font-size: 150%;
 }
 
 /*sizes the main features icon*/
-#main-features {
+#main-features ul li {
   list-style-type: none;
-  display: block;
-  padding: 100px;
-}
-
-#main-features h4 {
-  font: 20px "Lato", sans-serif;
+  display: inline;
+  padding: 80px;
 }
 
 .fa.fa-paw {
   font-size: 100px;
-  text-align: center;
-  display: block;
-  color: #9B846C;
-}
-
-.fa.fa-paw:hover {
-    color: #542c18;
+  text-align: left;
 }
 
 .fa.fa-map-marker {
   font-size: 100px;
   text-align: center;
-  display: block;
-  color: #9B846C;
-}
-
-.fa.fa-map-marker:hover {
-    color: #542c18;
 }
 
 .fa.fa-newspaper-o {
   font-size: 100px;
   text-align: center;
-  display: block;
-  color: #9B846C;
-}
-
-.fa.fa-newspaper-o:hover {
-    color: #542c18;
 }
 
 /*specifies the image for each panel*/
@@ -315,6 +267,7 @@ a:active {
   background-image: url("../index_images/nick-turner-2570.jpg");
   min-height: 400px;
 }
+
 
 /*styles the text of the message in each main-panel-pawx*/
 .pawsome-message {
@@ -344,16 +297,15 @@ a:active {
 /*positions the cross-page-banner to break up the view*/
 .cross-page-banner {
   position:relative;
-  background-color: #fffaef;
 }
 
 /*styles the cross-page-banner-subs which hold the core information*/
 .cross-page-banner-sub {
   color:#ddd;
+  background-color:#282E34;
   text-align:center;
   padding:50px 80px;
   text-align: justify;
-  text-align:center;
 }
 
 
@@ -392,34 +344,27 @@ text-align: center;
 /* blogs css*/
 
 a.fancybox img {
-<<<<<<< HEAD
     border: none;
     box-shadow: 0 1px 7px rgba(0,0,0,0.6);
     -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
 } 
 
 a.fancybox:hover img {
-=======
-        border: none;
-        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    }
-    a.fancybox:hover img {
->>>>>>> 3f55454e3b98030b562c22032b65126a48d9d584
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
 }
 
 .container {
-    height: 0.5%;
-    width: 0.5%;
+    height: 50%;
+    width: 100%;
     padding: none;
 }
 
 .blogcontent {
     background-color:none;
     color: brown;
-    padding-left: 200px;
-    padding-right: 200px;
+    font-family: "Andada";
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 
@@ -434,7 +379,15 @@ a.fancybox:hover img {
 }
 .main-panel-st {
   background-image: url("../index_images/andrew-welch-59249.jpg");
-  min-height: 100%;
+ } 
+
+.main-panel-about{
+  background-image: url(../index_images/chill.jpg);
+  max-height: 
+}
+
+.main-panel-st, .main-panel-about {
+  min-height: 70%;
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -453,12 +406,8 @@ a.fancybox:hover img {
 
 #stdavid, .sociallinks {
   display: inline-block;
-<<<<<<< HEAD
   width: 30%;
 
-=======
-  width: 40%;
->>>>>>> 3f55454e3b98030b562c22032b65126a48d9d584
 }
 
 a.fancybox img {
@@ -469,3 +418,21 @@ a.fancybox img {
     a.fancybox:hover img {
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
     }
+#contact{
+  background:#333333;
+  color:#f4f4f4;
+  padding-bottom:80px;
+}
+
+textarea.form-control {
+    height:100px;
+
+}
+
+.contactcontainer{
+  max-width: 100%;
+  padding-top: 5%;
+}
+h3.contactcontainter{
+  color: white;
+}
