@@ -222,7 +222,7 @@ a:active {
 /*styles the key-features-banner*/
 #key-features-banner {
   color: #777;
-  background-color:white;
+  background-color:rgba(10, 10, 10, 0.68);
   text-align:center;
   padding:50px 80px;
   padding-bottom:150px;
@@ -413,7 +413,8 @@ a.fancybox:hover img {
 
 .main-panel-about{
   background-image: url(../index_images/chill.jpg);
-  max-height: 60%;
+  max-
+  height: 60%;
 }
 
 .main-panel-ld {
@@ -421,7 +422,10 @@ a.fancybox:hover img {
   max-height: 70%;
  } 
 
-.main-panel-st, .main-panel-about, .main-panel-ld {
+.main-panel-contact {
+  background-image: url("../index_images/hi.jpg");
+}
+.main-panel-st, .main-panel-about, .main-panel-ld, .main-panel-contact{
   min-height: 70%;
   position: relative;
   opacity: 0.65;
@@ -450,14 +454,20 @@ a.fancybox img {
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
     }
 #contact{
-  background:#333333;
+/*  background:rgba(0, 9, 183, 0.81);*/  
   color:#f4f4f4;
   padding-bottom:80px;
+  border-radius: 40px;
 }
+
 
 textarea.form-control {
     height:100px;
 
+}
+
+.contactcontainer a{
+  background-color: rgba(224, 153, 0, 0.4);
 }
 
 .contactcontainer{
@@ -468,4 +478,12 @@ textarea.form-control {
 h3.contactcontainter{
   color: white;
   width: 40%;
+}
+
+.cafe-locator-map {
+  width: 1000px
+}
+
+.cafe-locator-map p{
+  color: white;
 }
