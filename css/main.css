@@ -5,7 +5,7 @@ body, html {
   font-family: 'Andada';font-size: 22px;
   color: #777;
   padding-top: 50px;
-/*  max-width: 100%;*/  
+/*  max-width: 100%;*/
   max-height: 80%;
   background-size: cover;
   background-image: url("../index_images/pood.png");
@@ -364,7 +364,7 @@ a.fancybox img {
     border: none;
     box-shadow: 0 1px 7px rgba(0,0,0,0.6);
     -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-} 
+}
 
 a.fancybox:hover img {
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
@@ -412,7 +412,7 @@ a.fancybox:hover img {
 }
 .main-panel-st {
   background-image: url("../index_images/andrew-welch-59249.jpg");
- } 
+ }
 
 .main-panel-about{
   background-image: url(../index_images/chill.jpg);
@@ -423,7 +423,7 @@ a.fancybox:hover img {
 .main-panel-ld {
   background-image: url("../Blog/blog_images/rug_cat.jpg");
   max-height: 70%;
- } 
+ }
 
 .main-panel-contact {
   background-image: url("../index_images/hi.jpg");
@@ -452,12 +452,12 @@ a.fancybox img {
         border: none;
         box-shadow: 0 1px 7px rgba(0,0,0,0.6);
         -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
+    }
     a.fancybox:hover img {
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
     }
 #contact{
-/*  background:rgba(0, 9, 183, 0.81);*/  
+/*  background:rgba(0, 9, 183, 0.81);*/
   color:#f4f4f4;
   padding-bottom:80px;
   border-radius: 40px;
@@ -489,4 +489,29 @@ h3.contactcontainter{
 
 .cafe-locator-map p{
   color: white;
+}
+
+
+/* Blog landing page styling */
+
+#main-features {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  min-width: 500px; /* Minimum width */
+  margin: 0 auto; /* Center it */
+}
+
+#main-features img {
+    display: inline;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+}
+
+#main-features img:hover {
+    background-color: yellow;           /* Yellow Highlight On Hover */
+    opacity: 0.2;
+    filter: alpha(opacity=20);
 }
