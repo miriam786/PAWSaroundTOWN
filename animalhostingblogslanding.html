@@ -14,30 +14,34 @@
 		<script src="js/index.js"></script>
 	</head>
 		<header>
- <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8">
-	   			<img src="index_images/banner.png"; style="max-width: 70%; max-height:50%; margin-top: 50px; margin-left: 120px;">
+		<div class="container"> 
+	        <div class="row">
+		            <div class="col-xs-12 col-sm-8">
+			   			<img src="index_images/banner.png"; style="max-width: 70%; max-height:50%; margin-top: 50px; margin-left: 120px;">
+			   		</div>
+		   		 <div class="col-xs-6 col-sm-4">
+		   				<div class="the-kennel-login">
+					  <h3>The Kennel </h3>
+		   			<h6>BECOME A MEMBER TODAY FOR EXCLUSIVE OFFERS</h6><a class="js-open-modal" data-modal-id="popup"><img src="index_images/kennel1.png"
+						onmouseover="hover(this);" onmouseout="unhover(this);" /></a>
+						<div><h6>CLICK TO SIGN IN</h6></div>
+						<div class="bannerlinks">
+							<a href="https://twitter.com/pawsaroundtown_" class="twitter" title="tweet us!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/jiffpom/" class="instagram" title="DM us!"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+							<a href="https://en-gb.facebook.com/jiffpom/" class="facebook" title="see what we're up to"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+						</div>
+			 		 </div>
+				</div>
 			</div>
+		</div>
+	</header>
 
-				<div class="bannerlinks">
-				<a href="https://twitter.com/pawsaroundtown_" class="twitter" title="tweet us!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/jiffpom/" class="instagram" title="DM us!"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-				<a href="https://en-gb.facebook.com/jiffpom/" class="facebook" title="see what we're up to"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-			</div>
-		</div>
-	</div>
-</div>
-</header>
-			</div>
-		</header>
-		</div>
 				<!-- This div is for the pop-up box when the user clicks on The Kennel -->
 				<div id="popup" class="modal-box">
 					<header>
 						<a href="#" class="js-modal-close close">×</a>
 						<h3><a href=""></a>WELCOME TO THE KENNEL</h3>
-						<img src="index_images/004-dog-kennel-color.png">
+						<img src="index_images/kennel2.png">
 					</header>
 					<div class="modal-body">
 						<form>
@@ -64,7 +68,9 @@
 					</footer>
 				</div>
 				</div>
+			</div>
 			</header>
+
 
 			<!-- This div specifies the navigation panel -->
 
@@ -77,6 +83,7 @@
 			        	<li class="dropdown">
 			          		<a href="About.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
 			          			<ul class="dropdown-menu">
+			          		<li><a href="About.html">What we do</a></li>
 			            	<li><a href="Our_ethos.html">Ethos</a></li>
 			            	<li><a href="FAQs.html">FAQs </a></li>
 			            	<li><a href="The_Kennel.html">The Kennel</a></li>
@@ -101,7 +108,7 @@
 		image and message the website is conveying when the user lands on the website -->
 		<div class="main-panel-paw1">
 		  <div class="pawsome-message">
-		    <span class="border">WELCOME TO ANIMAL HOSTING SPOTS</span>
+		    <span class="border">ANIMAL HOSTING SPOTS</span>
 		  </div>
 		</div>
 
@@ -109,7 +116,7 @@
 	 	quick navigation to the key features and points of interest for the user-->
 		<div id="key-features-banner">
 		  <h3>CHECK OUT OUR LATEST BLOGS BELOW</h3>
-		  <p></p>
+		  <p>Cafes and eateries that look after animals, where you are welcome to come and buy a coffee and piece of cake whilst the animals are free to wander around. We only support cafes and eateries that host fostered animals, that give their profit solely to running the cafe and looking after the animals, and that give back to animal charities.</p>
 			<div id="main-features">
 				<!---This structures the carousel -->
 				<div class="container">
@@ -126,10 +133,10 @@
 											<!-- Wrapper for slides -->
 											<div class="carousel-inner" role="listbox">
 													<div class="item active">
-														<a href="Blog/Lady_Dinah.html"><img border="0" alt="Lady_Dinah" src="Blog/Blog_images/matcha.jpg"></a>
+														<img border="0" alt="Lady_Dinah" src="Blog/Blog_images/rug_cat.jpg"></a>
 															<div class="carousel-caption">
-																	<h1>Lady Dinah</h1>
-																	<p>Find out about Lady Dinah in this review</p>
+																	<a href="Blog/Lady_Dinah.html"><h1>Lady Dinah</h1>
+																	<p>Find out about Lady Dinah in this review</p></a>
 															</div>
 													</div>
 													<div class="item">
@@ -180,5 +187,6 @@
 					</div>
 		</div>
 </footer>
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left" style="float: right"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body>
 </html>

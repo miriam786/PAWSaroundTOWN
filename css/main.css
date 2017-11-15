@@ -2,20 +2,17 @@ body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Andada", arial;
-  font-family: 'Andada';font-size: 22px;
-  color: #777;
+  font-family: 'Andada';font-size: 20px;
+/*  color: #777;*/
   padding-top: 50px;
 /*  max-width: 100%;*/
   max-height: 80%;
   background-size: cover;
-/*  background-image: url("../index_images/pood.png");  
-*/  background-repeat: no-repeat;
+  background-color: lightgrey;  
+  background-repeat: no-repeat;
 
 }
 
-body {
-    font-family: Andanda, helvetica, arial;
-  }
 
 =======
 /* USEFUL CODE {
@@ -47,7 +44,7 @@ h3 {
 h4 {
     font-size: 24px;
     letter-spacing: 3px;
-    color: #444;
+    color: white;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -219,13 +216,13 @@ a:link {
 }
 
 a:visited {
-    color: black;
+    color: lightblue;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #black;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
@@ -287,6 +284,15 @@ a:active {
   text-align: center;
 }
 
+.fa.fa-newspaper-o, .fa.fa-map-marker, .fa.fa-paw{
+  color: white
+}
+
+.fa.fa-newspaper-o:hover img, .fa.fa-map-marker:hover img, .fa.fa-paw:hover img {
+  color: orange
+
+}
+
 /*specifies the image for each panel*/
 .main-panel-paw1 {
   background-image: url("../index_images/jason-wong-306244.jpg");
@@ -296,12 +302,12 @@ a:active {
 }
 
 .main-panel-paw2 {
-  background-image: url("../index_images/hannah-wei-84287.jpg");
+  background-image: url("../index_images/nick-turner-2570.jpg");
   min-height: 400px;
 }
 
 .main-panel-paw3 {
-  background-image: url("../index_images/nick-turner-2570.jpg");
+  background-image: url("../index_images/hannah-wei-84287.jpg");
   min-height: 400px;
 }
 
@@ -361,7 +367,6 @@ h3.cross-page-banner-sub{
 
 .footer {
   color: #777;
-  background-color:white;
   text-align:center;
   padding:50px 80px;
   text-align: justify;
@@ -406,13 +411,13 @@ a.fancybox:hover img {
 
 .blogcontent {
    width: 100%;
-    background-color:none;
+    background-color:rgba(10, 10, 10, 0.68);
     color: white;
     font-family: "Andada";
     padding-left: 70px;
     padding-right: 70px;
     padding: 20px 70px 20px 20px;
-    margin-left: 40px;
+/*    margin-left: 40px;*/
     margin-right: 40px;
     margin-bottom: 30px;
     border-radius: 6px;
@@ -450,7 +455,17 @@ a.fancybox:hover img {
 .main-panel-contact {
   background-image: url("../index_images/hi.jpg");
 }
-.main-panel-st, .main-panel-about, .main-panel-ld, .main-panel-contact{
+
+.main-panel-faqs
+{
+  background-image:url("../index_images/faqs.jpg");
+}
+
+.main-panel-locator{
+  background-image: url("../index_images/london.jpg");
+}
+
+.main-panel-st, .main-panel-about, .main-panel-ld, .main-panel-contact, .main-panel-faqs, .main-panel-locator{
   min-height: 70%;
   position: relative;
   opacity: 0.65;
@@ -470,18 +485,6 @@ a.fancybox:hover img {
 
 }
 
-<<<<<<< HEAD
-
-=======
-a.fancybox img {
-        border: none;
-        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    }
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
->>>>>>> a6b8c00cea206ebe28498c5e18bae0b39967fa6a
 #contact{
 /*  background:rgba(0, 9, 183, 0.81);*/
   color:#f4f4f4;
@@ -517,11 +520,10 @@ h3.contactcontainter{
   color: white;
 }
 
-<<<<<<< HEAD
 .kennel-form{
   max-width: 40%
 }
-=======
+
 
 /* Blog landing page styling */
 
@@ -546,4 +548,12 @@ h3.contactcontainter{
     opacity: 0.2;
     filter: alpha(opacity=20);
 }
->>>>>>> a6b8c00cea206ebe28498c5e18bae0b39967fa6a
+
+#ethos{
+  padding: 80px;
+}
+
+
+
+
+

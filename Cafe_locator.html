@@ -25,8 +25,9 @@
 		   		 <div class="col-xs-6 col-sm-4">
 		   				<div class="the-kennel-login">
 					  <h3>The Kennel </h3>
-		   			<h6>BECOME A MEMBER TODAY FOR EXCLUSIVE OFFERS</h6><a class="js-open-modal" data-modal-id="popup"><img src="index_images/kennel2.png"
+		   			<h6>BECOME A MEMBER TODAY FOR EXCLUSIVE OFFERS</h6><a class="js-open-modal" data-modal-id="popup"><img src="index_images/kennel1.png"
 						onmouseover="hover(this);" onmouseout="unhover(this);" /></a>
+						<div><h6>CLICK TO SIGN IN</h6></div>
 						<div class="bannerlinks">
 							<a href="https://twitter.com/pawsaroundtown_" class="twitter" title="tweet us!"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 							<a href="https://www.instagram.com/jiffpom/" class="instagram" title="DM us!"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
@@ -37,7 +38,6 @@
 			</div>
 		</div>
 	</header>
-
 				<!-- This div is for the pop-up box when the user clicks on The Kennel -->
 				<div id="popup" class="modal-box">
 					<header>
@@ -84,7 +84,7 @@
 			        	<li class="dropdown">
 			          		<a href="About.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
 			          			<ul class="dropdown-menu">
-			          				<li><a href="About.hmtl">What we do</a></li>
+			          				<li><a href="About.html">What we do</a></li>
 			            	<li><a href="Our_ethos.html">Ethos</a></li>
 			            	<li><a href="FAQs.html">FAQs </a></li>
 			            	<li><a href="The_Kennel.html">The Kennel</a></li>
@@ -107,7 +107,7 @@
 
 	<!-- This is the main panel paw1 containing the iconic
 	image and message the website is conveying when the user lands on the website -->
-	<div class="main-panel-paw1">
+	<div class="main-panel-locator">
 		<div class="pawsome-message">
 			<span class="border">CAFE LOCATOR</span>
 		</div>
@@ -116,21 +116,30 @@
 	<!-- This is key features banner containing the website highlights icons for
 	quick navigation to the key features and points of interest for the user-->
 	<div id="key-features-banner">
-		<h4 style="color: white"><b><u>CAFE LOCATOR</b></h4></u></h4>
+
 
 					<div id="cafe-locator-map">
-						<p style="color: white">Explore our cafe locator map to find the perfect spot for you and a furry friend.</p>
-						<p style="color: white">This map displays all of the cafes around town that you can pause for a some food, either with, or to visit some fluffy friends. We will keep this page updated as we discover more animal loving eateries in the city. If something is missing, and you think we should know about it, please hit us up <a href="../contact/contact.html" style="color: rgba(224, 153, 0, 1)">here!</a></p>
-						<iframe src="https://www.google.com/maps/d/embed?mid=1k3pll68Z6GT5F34NXS9KSxjCx2c"
-						width="950" height="550"></iframe>
+				<div class="container" style="font-size: 10px">	
+				<div class="row">
+					<div class="col-xs-6" style="padding-left: 300px">		
+						<h4 style="color: white"><b><u>CAFE LOCATOR</b></h4></u></h4>
+						<h5 style="font-size: 15px">Explore our cafe locator map to find the perfect spot for you and a furry friend. This map displays all of the cafes around town that you can pause for a some food, either with, or to visit some fluffy friends. We will keep this page updated as we discover more animal loving eateries in the city. If something is missing, and you think we should know about it, please hit us up <a href="../contact/contact.html" style="color: rgba(224, 153, 0, 1)">here!</a></h5>
+					</div>
+         <div class="col-xs-2">
+            	<img src="./index_images/mapkey.png" style="max-width: 250%" align="center">
+            </div>
+						<iframe src="https://www.google.com/maps/d/embed?mid=1k3pll68Z6GT5F34NXS9KSxjCx2c" width="650" height="550"></iframe>></iframe>
 					</div></b></h4>
 			</div>
 
 			<!-- This is the main panel paw1 again containing the iconic image
 			the website is conveying when the user lands on the website. We thought
 		it was good to end with this to take a journey from macro - micro - macro -->
-			<div class="main-panel-paw1">
-				</div>
+		<div class="main-panel-paw3">
+		  <div class="pawsome-message" style="color: white">
+		    <span class="border"><a href="./index.html">BACK HOME</span>
+		  </div>
+		</div>
 
 	<!-- This is the footer of the site which holds some additional information -->
 	<footer>
@@ -148,5 +157,6 @@
 				</div>
 	</div>
 </footer>
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left" style="float: right"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body>
 </html>
