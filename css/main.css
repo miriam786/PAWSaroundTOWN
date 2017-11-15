@@ -8,8 +8,8 @@ body, html {
 /*  max-width: 100%;*/  
   max-height: 80%;
   background-size: cover;
-  background-image: url("../index_images/pood.png");
-  background-repeat: no-repeat;
+/*  background-image: url("../index_images/pood.png");  
+*/  background-repeat: no-repeat;
 
 }
 
@@ -123,7 +123,19 @@ background-color: #ebfbff;
     color: #4f45ee !important;
     background-color: #ebfbff !important;
   }
+
+  .navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
 }
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+
 
   /*/*.navbar navbar-default {
       /*border:1px solid #ccc;removed border lines for consistency to design*/
@@ -153,16 +165,16 @@ background-color: #ebfbff;
 
 .bannerlinks {
   padding: 5px 7px 5px 0.5px;
-  margin-top: 272px;
+  margin-top: 30px;
+  margin-left: 10%;
   background-color: rgba(224, 153, 0, 0.24);
   border-color: rgba(158, 110, 93, 0.39);
   border-radius: 50px;
-  horizontal-align: right;
-  float: right;
+  max-width: 75%;
 }
 
 .bannerlinks a {
-    padding: 12px 30px 20px 25px;
+    padding: 12px 30px 10px 25px;
     color: black;
     text-decoration: none;
 }
@@ -182,10 +194,24 @@ background-color: #ebfbff;
 }
 
 .bannerlinks a, .navbar-default{
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 0;
 }
+.the-kennel-login{
+  padding-top: 30px;
+}
+.the-kennel-login img {
+  min-width: 30%;
+}
 
+/*.col-xs-6 {
+  border: 2px;
+  border-style: dashed;
+  border-color: blue;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;*/
+}
 a:link {
     color: black;
     background-color: transparent;
@@ -372,10 +398,6 @@ a.fancybox:hover img {
         box-shadow: 0 1px 7px rgba(0,0,0,0.6);
         -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
     }
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
-
 .container {
     height: 50%;
     width: 100%;
@@ -448,14 +470,7 @@ a.fancybox:hover img {
 
 }
 
-a.fancybox img {
-        border: none;
-        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
-        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-    } 
-    a.fancybox:hover img {
-        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-    }
+
 #contact{
 /*  background:rgba(0, 9, 183, 0.81);*/  
   color:#f4f4f4;
@@ -489,4 +504,8 @@ h3.contactcontainter{
 
 .cafe-locator-map p{
   color: white;
+}
+
+.kennel-form{
+  max-width: 40%
 }

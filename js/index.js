@@ -1,10 +1,10 @@
 //The Kennel Sign-In Hover to change image source//
 function hover(element) {
-  element.setAttribute('src', 'index_images/004-dog-kennel-color.png');
+  element.setAttribute('src', 'index_images/kennel2.png');
   }
 
 function unhover(element) {
-  element.setAttribute('src', 'index_images/004-dog-kennel.png');
+  element.setAttribute('src', 'index_images/kennel1.png');
 }
 
 //The Kennel Sign-In pop-up box//
@@ -37,5 +37,28 @@ $(window).resize(function() {
 });
 
 $(window).resize();
+
+});
+
+// top of page button
+
+$(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
 
 });
